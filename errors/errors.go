@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/yuyang0/gkv/pkg/utils/trace"
+	"github.com/yuyang0/golog/trace"
 )
 
 var TraceEnabled = true
