@@ -48,6 +48,25 @@ const (
 	LEVEL_ALL = LEVEL_DEBUG
 )
 
+func (lv LogLevel) String() string {
+	switch lv {
+	case LEVEL_NONE:
+		return "[LOG_NONE]"
+	case LEVEL_ERROR:
+		return "[LOG_ERROR]"
+	case LEVEL_WARN:
+		return "[LOG_WARN]"
+	case LEVEL_INFO:
+		return "[LOG_INFO]"
+	case LEVEL_DEBUG:
+		return "[LOG_DEBUG]"
+	case LEVEL_ALL:
+		return "[LOG_ALL]"
+	default:
+		return "[LOG_UNKNOWN]"
+	}
+}
+
 func (t LogType) String() string {
 	switch t {
 	default:
