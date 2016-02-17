@@ -1,7 +1,7 @@
 // Copyright 2014 Wandoujia Inc. All Rights Reserved.
 // Licensed under the MIT (MIT-LICENSE.txt) license.
 
-package log
+package golog
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/yuyang0/gkv/pkg/utils/errors"
-	"github.com/yuyang0/gkv/pkg/utils/trace"
+	"github.com/yuyang0/golog/errors"
+	"github.com/yuyang0/golog/trace"
 )
 
 const (
