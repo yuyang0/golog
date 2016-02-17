@@ -60,8 +60,6 @@ func (lv LogLevel) String() string {
 		return "[LOG_INFO]"
 	case LEVEL_DEBUG:
 		return "[LOG_DEBUG]"
-	case LEVEL_ALL:
-		return "[LOG_ALL]"
 	default:
 		return "[LOG_UNKNOWN]"
 	}
